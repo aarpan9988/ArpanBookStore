@@ -48,5 +48,8 @@ I added the css links and js links in it.
 
 Modified the dbcontext of the  startup.cs file and fixed all the list of errors thank god .................... I am able to do that... I am so proud of myself..
 
-Finally i solved the errors
+Finally i solved the errors.
+
+In my utility projects i added the class with the name SD.cs file and modified the properties of the file. Later I added the reference of the utility project with the main project 
+and added the dataaccess project refrence to the utility and models project. 
  
