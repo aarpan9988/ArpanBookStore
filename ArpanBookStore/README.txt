@@ -30,3 +30,6 @@ According to the provided links I added the given scripted links in my layout.cs
 I added the css links and js links in it.
  In my this steo I added the dropdown menu in the layout page. As given in the instructions i added the cod in the layout.cshtml and it test it out.
  Yes its working......................................
+
+ Now I added a dropdoen list in the layout.cshtml file
+ I cahnged the name from dropdown to the Content Management.
