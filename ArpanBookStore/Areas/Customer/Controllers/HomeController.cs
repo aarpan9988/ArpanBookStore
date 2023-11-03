@@ -10,6 +10,7 @@ using ArpanBookStore.Models.ViewModels;
 
 namespace ArpanBookStore.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
