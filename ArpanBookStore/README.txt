@@ -34,3 +34,5 @@ I added the css links and js links in it.
  Now I added a dropdoen list in the layout.cshtml file
  I cahnged the name from dropdown to the Content Management.
  I created the ArpansBooks.DataAccess, ArpansBooks.Models and ArpansBooks.Utility class library as given in the instructions .
+
+ I pasted the data folder in dataaccess and deleted the original one.
