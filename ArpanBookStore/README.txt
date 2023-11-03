@@ -52,4 +52,5 @@ Finally i solved the errors.
 
 In my utility projects i added the class with the name SD.cs file and modified the properties of the file. Later I added the reference of the utility project with the main project 
 and added the dataaccess project refrence to the utility and models project. 
+In my next step I added the area under the Area folder with the name customer, It runs the scaffolding and after that i changed the routes in the startup.cs file as given.
  
