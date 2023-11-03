@@ -65,4 +65,7 @@ In my next step I added the area under the Area folder with the name customer, I
   after that i have added a new folder in Areas name as a Admin and added Views file in it 
  After this step i have deleted the Data And Models and in last step i have deleted my controllers folder and my assignment is completed niow ...... 
 
+ ASSIGNMENT PART 2( Working on the second part of the assignment)
+
+ I changed database name and saved it in the appsetting.json.
  
