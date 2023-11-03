@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ArpanBookStore.Models.ViewModels;
 
-namespace ArpanBookStore.Controllers
+namespace ArpanBookStore.Area.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

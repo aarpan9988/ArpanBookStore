@@ -55,4 +55,6 @@ and added the dataaccess project refrence to the utility and models project.
 In my next step I added the area under the Area folder with the name customer, It runs the scaffolding and after that i changed the routes in the startup.cs file as given.
  As per instructions i moved the homecontroller.cs file into the controller file of the areas under customer folder.
  Then i deleted the Models and Data.
+
+ Then i moved the home page under the view folder of areas and updated the homecontroller.cs file namespace.
  
