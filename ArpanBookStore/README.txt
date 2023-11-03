@@ -57,4 +57,8 @@ In my next step I added the area under the Area folder with the name customer, I
  Then i deleted the Models and Data.
 
  Then i moved the home page under the view folder of areas and updated the homecontroller.cs file namespace.
+
+ Then i moved the home page under the view folder of areas and updated the homecontroller.cs file namespace.
+ Later I copied the viewStart.cshtml file and viewImports.cshtml file into the views
+ After that I runned the application and it worked.
  
