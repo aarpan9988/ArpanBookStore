@@ -22,3 +22,11 @@ PART 3:
 
 I am working on the Part 3 the Bootstrap.css.
 I selected my theme from the bootswatch and downloaded the file bootstrap.css sof the theme.
+I changed the nav classes text dark and the footer properties as given in the instructions.Later I change the loginPartial file also I removed the text dark from the nav links.
+
+I did'nt like the bootstrap.css i chose , so i changed it and apply it again... So the one I applied now i liked it..... I'll keep this one ..
+
+According to the provided links I added the given scripted links in my layout.cshtml file.
+I added the css links and js links in it.
+ In my this steo I added the dropdown menu in the layout page. As given in the instructions i added the cod in the layout.cshtml and it test it out.
+ Yes its working......................................
