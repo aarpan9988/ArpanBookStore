@@ -8,3 +8,6 @@ Since there is alot of new things to see , I have the Areas folder Data folder a
 PART 1
 The first step he told to do is to edit the startup.cs file. As he mentioned we commented the Identity user in the services.
 Now lets runs it if its working or not .............. Its working nothing to be worry about.
+
+I did a interesting step here which I tried in the class also, I tried to register the on my application by email and password.
+And when i click submit it pops up with an exception. I was worried but it was nothing just said to update the database. I hit the button apply migrations and it worked. 
