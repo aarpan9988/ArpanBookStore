@@ -38,4 +38,5 @@ I added the css links and js links in it.
  I pasted the data folder in dataaccess and deleted the original one.
 
  I installed the entity frameworks that were required to install with version 5.0.17.
- The Microsoft.entityframework.relational and the entityframework.sqlserver
+ The Microsoft.entityframework.relational and the entityframework.sqlserver.
+ Next it said to delete the migrations folder and install the indentity.EntityFramework Core with the version 5.0.2 in the project. I followed the step as per instructions.........
