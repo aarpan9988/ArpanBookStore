@@ -43,4 +43,10 @@ I added the css links and js links in it.
 
  In my next I cjhanged the namespace according to the project and deleted the class1.cs files from every project.
  Next I moved the Models folder into the models project and deleted the original one.
+
+ I renamed the models folder with the ViewModels file and changed the namespace of ErrorViewModel.cs to models.ViewModels as per given instructions.
+
+Modified the dbcontext of the  startup.cs file and fixed all the list of errors thank god .................... I am able to do that... I am so proud of myself..
+
+Finally i solved the errors
  
