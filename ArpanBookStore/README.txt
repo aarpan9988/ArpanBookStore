@@ -92,3 +92,4 @@ In my next step I added the area under the Area folder with the name customer, I
   Added new class SP_Call.cs file in the Repository and added the code to link the class and the interface.
 
   I added new interface and class of name IUnitOfWork and UnitOfWork and added the given code in the file.
+  Added new MVC Controller under the Areas/Admin/Controllers and modified it with the given code in the instructions .
