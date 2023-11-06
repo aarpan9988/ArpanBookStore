@@ -81,3 +81,7 @@ In my next step I added the area under the Area folder with the name customer, I
  I added the given code in the IRepository.cs file
  
  Created the rpository.cs file and added the gievn code in it...
+
+ I added the CategoryRepository and ICategoryRepository in the DataAccess project .
+ After that i added the required code and fixes the errors.
+  
