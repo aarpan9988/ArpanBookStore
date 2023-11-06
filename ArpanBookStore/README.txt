@@ -70,4 +70,7 @@ In my next step I added the area under the Area folder with the name customer, I
  I changed database name and saved it in the appsetting.json.
  I added the new migration in the project .dataAccess: add-migration AddDefaultIdentityMigration 
  Since the migrations are created lets update them. I updated it reviewd the tables in the update.
+
+ I created the category.cs class under model project and added the table in it. After that i run the migration command to the PM and it showa ERROR.....
+ Then i saw that my project was wrong...
  
