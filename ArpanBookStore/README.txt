@@ -95,3 +95,5 @@ In my next step I added the area under the Area folder with the name customer, I
   Added new MVC Controller under the Areas/Admin/Controllers and modified it with the given code in the instructions .
 
   Now i created a Category folders under Areas/Views folder . In the category folder i created a view folder and added index.cshtml file and modify my code
+
+  i modify my layout page by adding category and dropdwon menu...then test it .... its good...
