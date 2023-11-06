@@ -84,4 +84,6 @@ In my next step I added the area under the Area folder with the name customer, I
 
  I added the CategoryRepository and ICategoryRepository in the DataAccess project .
  After that i added the required code and fixes the errors.
+
+ I did the remaining modifications in the CategoryRepository file  where i passed the values of id and name 
   
