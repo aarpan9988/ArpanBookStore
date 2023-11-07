@@ -33,7 +33,7 @@ namespace ArpanBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
 
         // API calls here
