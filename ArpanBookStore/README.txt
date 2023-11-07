@@ -102,3 +102,6 @@ In my next step I added the area under the Area folder with the name customer, I
   But later the step told me to delete that part ( Litterally this made me so angry .......)
   and add the javascript into the Category.js file under the wwroot provided by the proffessor...
   And linked the file with thw index of the category ... Run the App and it worked.
+
+  I added the IAction method in the CategoryController.cs file and later i am updating the code to reflect the edit and deleted the categories.
+  Added the Upder.cshtml file in the category....
