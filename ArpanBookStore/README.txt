@@ -120,3 +120,5 @@ In my next step I added the area under the Area folder with the name customer, I
   After that i run my application and it worked...
 
   DataTables warning: table id=tblData - Ajax error. For more information about this error, please see http://datatables.net/tn/7
+
+  Working on the Database error , The ajax error.
