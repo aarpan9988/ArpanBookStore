@@ -125,11 +125,14 @@ In my next step I added the area under the Area folder with the name customer, I
 
   I worked over my code and found out that my databse was not working properly. I rewrite my code and update the database. And now my Application is working.
 
-  ASSIGNMENT 2- PART III
+  ASSIGNMENT 2- PART III (november 17, 2023) 
 
   SECTION 1
 
   I added the CoverType.cs class in the models project and gave it the id and name.
 
-  I added the coverTypeRepository and IcoverTypeRepository interface to the repository.
+  I added the CoverTypeRepository class  and IcoverTypeRepository interface to the repository.
   I added the migration via PM console "add-migration AddCoverTypeToDB ".
+
+  I updated the code in the CoverType repositories... it.
+  And updated the database it worked....

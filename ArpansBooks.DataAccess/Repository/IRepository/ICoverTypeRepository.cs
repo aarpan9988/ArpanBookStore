@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArpansBooks.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace ArpansBooks.DataAccess.Repository.IRepository
 {
-    interface ICoverTypeRepository
+   public interface ICoverTypeRepository : IRepository<CoverType>
     {
+        void Update(CoverType covertype);
     }
 }
