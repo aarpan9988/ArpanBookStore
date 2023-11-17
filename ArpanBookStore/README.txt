@@ -136,3 +136,5 @@ In my next step I added the area under the Area folder with the name customer, I
 
   I updated the code in the CoverType repositories... it.
   And updated the database it worked....
+
+  I added the CoverType to the UnitOfWork and IUnitOfWork
