@@ -20,7 +20,10 @@ namespace ArpansBooks.DataAccess.Repository
 
             Category = new CategoryRepository(_db);
 
+
             SP_Call = new SP_Call(_db);
+
+
         }
 
         public ICategoryRepository Category { get; private set; }

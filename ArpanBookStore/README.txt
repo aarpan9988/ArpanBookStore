@@ -130,3 +130,6 @@ In my next step I added the area under the Area folder with the name customer, I
   SECTION 1
 
   I added the CoverType.cs class in the models project and gave it the id and name.
+
+  I added the coverTypeRepository and IcoverTypeRepository interface to the repository.
+  I added the migration via PM console "add-migration AddCoverTypeToDB ".
