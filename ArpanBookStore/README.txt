@@ -124,3 +124,9 @@ In my next step I added the area under the Area folder with the name customer, I
   Working on the Database error , The ajax error
 
   I worked over my code and found out that my databse was not working properly. I rewrite my code and update the database. And now my Application is working.
+
+  ASSIGNMENT 2- PART III
+
+  SECTION 1
+
+  I added the CoverType.cs class in the models project and gave it the id and name.
