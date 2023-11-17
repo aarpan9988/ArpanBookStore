@@ -16,9 +16,19 @@ namespace ArpansBooks.DataAccess.Repository.IRepository
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeProperties = null
             );
-        void Add(T entity);
-        void Remove(int id);
-        void Remove(T entity);
+
+        T GetFirstOrDefault(
+            Expression<Func<T, bool>> filter = null,
+            string includeProperties = null
+            );
+        void Add(T entity); // to add an entity Oreferences
+
+        void Remove(int id); // to remove an object or category
+
+
+
+        void Remove(T entity); // another way to remove an object
+
         void RemoveRange(IEnumerable<T> entity);
     }
 }

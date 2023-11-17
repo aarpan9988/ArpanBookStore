@@ -12,6 +12,7 @@ namespace ArpanBookStore.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+
         public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -20,14 +21,15 @@ namespace ArpanBookStore.Areas.Admin.Controllers
         {
             return View();
         }
-        public IActionResult Upsert(int? id) // action method for uppsert
+
+        public IActionResult Upsert(int? id)
         {
             Category category = new Category();
             if (id == null)
             {
                 return View(category);
-
             }
+
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
@@ -35,7 +37,7 @@ namespace ArpanBookStore.Areas.Admin.Controllers
             }
             return View(category);
         }
-        // http
+
         [HttpPost]
         [ValidateAntiForgeryToken]
 
@@ -46,7 +48,7 @@ namespace ArpanBookStore.Areas.Admin.Controllers
                 if (category.ID == 0)
                 {
                     _unitOfWork.Category.Add(category);
-                     
+
                 }
                 else
                 {
@@ -58,7 +60,7 @@ namespace ArpanBookStore.Areas.Admin.Controllers
             return View(category);
         }
 
-        // API calls here
+        //api calls
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
@@ -66,17 +68,9 @@ namespace ArpanBookStore.Areas.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-        [HttpGet]
-
-        public IActionResult GetALL()
-        {
-            var allObj = _unitOfWork.Category.GetAll();
-            return Json(new { data = allObj });
-        }
-
+        #endregion
 
         [HttpDelete]
-
         public IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.Category.Get(id);
@@ -88,6 +82,5 @@ namespace ArpanBookStore.Areas.Admin.Controllers
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
-        #endregion
     }
 }
