@@ -150,3 +150,8 @@ Later added the CoverType.js file in the wwwroot/JS file.
 
 Next I added the upsert file into the CoverType folder.
 And edit the symbolic code for the edit and delete.
+
+WORKING ON THE PRODUCT
+
+I added the new class Product.cs under the Model project.
+Added the code into the class
