@@ -138,3 +138,7 @@ In my next step I added the area under the Area folder with the name customer, I
   And updated the database it worked....
 
   I added the CoverType to the UnitOfWork and IUnitOfWork
+
+November 20, 2023
+
+I added the CoverType to the Navbar in the Layout.html
