@@ -141,4 +141,5 @@ In my next step I added the area under the Area folder with the name customer, I
 
 November 20, 2023
 
-I added the CoverType to the Navbar in the Layout.html
+I added the CoverType to the Navbar in the Layout.html.
+I added the new controller name CoverType.controller under the Controllers folder.
