@@ -157,4 +157,8 @@ I added the new class Product.cs under the Model project.
 Added the code into the class
 
 Added the refrence of the Product to the ApplicationDbContext.cs file .
-And added the migration
+And added the migration.
+
+My timespan is [20231120211454]
+
+Added new migration AddValidationToProduct
