@@ -165,3 +165,4 @@ Added new migration AddValidationToProduct
 
 Added the Product class into the Repository and interface toIRepository 
 Added product to the UnitOfWork and IUnitOfWork
+Added new ProductController under the Areas/Admin/Controllers folder and updated the code in it.
