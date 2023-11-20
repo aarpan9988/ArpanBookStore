@@ -169,3 +169,9 @@ Added new ProductController under the Areas/Admin/Controllers folder and updated
 
 Added the new class in the ViewModel with the name of ProductVM and updated code in the file.
 Later i installed the framework "Microsoct.ASPNetCore.Viewfeature" in the project.
+
+I added the ProductController.cs file under the controller.
+Updated the file for Upsert calls and API calss.
+
+Commented the Upsert post method.
+After that Updated the API calls for the Category and CoverTypes.
