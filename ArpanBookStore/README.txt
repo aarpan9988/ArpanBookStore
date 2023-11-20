@@ -166,3 +166,6 @@ Added new migration AddValidationToProduct
 Added the Product class into the Repository and interface toIRepository 
 Added product to the UnitOfWork and IUnitOfWork
 Added new ProductController under the Areas/Admin/Controllers folder and updated the code in it.
+
+Added the new class in the ViewModel with the name of ProductVM and updated code in the file.
+Later i installed the framework "Microsoct.ASPNetCore.Viewfeature" in the project.
