@@ -143,3 +143,7 @@ November 20, 2023
 
 I added the CoverType to the Navbar in the Layout.html.
 I added the new controller name CoverType.controller under the Controllers folder.
+
+Created the CoverType folder in the Admin/Views .
+Added the Razor View Index file in it. Added the code in the Index file.
+Later added the CoverType.js file in the wwwroot/JS file.
