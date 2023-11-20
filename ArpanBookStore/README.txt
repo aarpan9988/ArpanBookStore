@@ -162,3 +162,6 @@ And added the migration.
 My timespan is [20231120211454]
 
 Added new migration AddValidationToProduct
+
+Added the Product class into the Repository and interface toIRepository 
+Added product to the UnitOfWork and IUnitOfWork
