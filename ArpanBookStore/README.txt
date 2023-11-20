@@ -175,3 +175,6 @@ Updated the file for Upsert calls and API calss.
 
 Commented the Upsert post method.
 After that Updated the API calls for the Category and CoverTypes.
+
+I created the Index razor view of the Product under the Areas/Admin/Views.
+After that i created the js file of product and updated the code with the given code.
