@@ -147,3 +147,6 @@ I added the new controller name CoverType.controller under the Controllers folde
 Created the CoverType folder in the Admin/Views .
 Added the Razor View Index file in it. Added the code in the Index file.
 Later added the CoverType.js file in the wwwroot/JS file.
+
+Next I added the upsert file into the CoverType folder.
+And edit the symbolic code for the edit and delete.
