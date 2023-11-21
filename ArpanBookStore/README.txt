@@ -178,3 +178,9 @@ After that Updated the API calls for the Category and CoverTypes.
 
 I created the Index razor view of the Product under the Areas/Admin/Views.
 After that i created the js file of product and updated the code with the given code.
+
+Added the Upser file into the product folder given by andrew.....
+After that created the tiny.cloud accound and used the API from that for the textarea.
+Updated the code for the http post and run the application....
+
+Yes it works my program is working...
