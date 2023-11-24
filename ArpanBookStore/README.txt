@@ -194,4 +194,6 @@ Updated my code in the category controller and the index of category.
 
 I macth my code with the given code in the instructions and updated the little code in the ProductRepository and Repository.cs file
 
-In my product.cs file i gave CoverType the Ctegory id so i fixed my mistake and corrected it to the CoverType id
+In my product.cs file i gave CoverType the Ctegory id so i fixed my mistake and corrected it to the CoverType id.
+
+I added the images folder under the wwwroot and added  the products folder under it
