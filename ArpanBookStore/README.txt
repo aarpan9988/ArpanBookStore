@@ -200,3 +200,6 @@ I added the images folder under the wwwroot and added  the products folder under
 
 I added the Create, get, Update and Delete method in CoverTypecontroller.cs file.
 Later i updated the code of sd.cs file and added the same update methods in it.
+
+I added the new entries for the price in the product.cs file.
+After that i added the those rpoperties in the ProductController.cs file also.
