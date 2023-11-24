@@ -191,3 +191,5 @@ Yes it works my program is working...
 Started the part 4 
 
 Updated my code in the category controller and the index of category.
+
+I macth my code with the given code in the instructions and updated the little code in the ProductRepository and Repository.cs file
