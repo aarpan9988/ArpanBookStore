@@ -1,5 +1,7 @@
 ﻿using ArpansBooks.DataAccess.Repository.IRepository;
 using ArpansBooks.Models;
+using ArpansBooks.Utility;
+using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -30,7 +32,9 @@ namespace ArpanBookStore.Areas.Admin.Controllers
                 return View(coverType);
 
             }
-            coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
+            var parameter = new DynamicParameters();
+            parameter.Add("@Id", id);
+            coverType = _unitOfWork.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);
             if (coverType == null)
             {
                 return NotFound();
@@ -45,14 +49,17 @@ namespace ArpanBookStore.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                var parameter = new DynamicParameters();
+                parameter.Add("@Name", coverType.Name);
                 if (coverType.ID == 0)
                 {
-                    _unitOfWork.CoverType.Add(coverType);
-                    _unitOfWork.Save();
+                    _unitOfWork.SP_Call.Execute(SD.Proc_CoverType_Create, parameter);
                 }
                 else
                 {
-                    _unitOfWork.CoverType.Update(coverType);
+                    parameter.Add("@Id", coverType.ID);
+                    _unitOfWork.SP_Call.Execute(SD.Proc_CoverType_Update, parameter);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));

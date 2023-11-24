@@ -15,5 +15,7 @@ namespace ArpansBooks.DataAccess.Repository.IRepository
         T OneRecord<T>(string procedurename, DynamicParameters param = null);
         IEnumerable<T> List<T>(string procedurename, DynamicParameters param = null);
         Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null);
+        T OneRecord<T>(object proc_CoverType_Get, DynamicParameters parameter);
+        void Execute(object proc_CoverType_Update, DynamicParameters parameter);
     }
 }

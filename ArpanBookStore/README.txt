@@ -197,3 +197,6 @@ I macth my code with the given code in the instructions and updated the little c
 In my product.cs file i gave CoverType the Ctegory id so i fixed my mistake and corrected it to the CoverType id.
 
 I added the images folder under the wwwroot and added  the products folder under it
+
+I added the Create, get, Update and Delete method in CoverTypecontroller.cs file.
+Later i updated the code of sd.cs file and added the same update methods in it.
