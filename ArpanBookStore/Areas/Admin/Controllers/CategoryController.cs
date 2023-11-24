@@ -68,7 +68,7 @@ namespace ArpanBookStore.Areas.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-        #endregion
+       
 
         [HttpDelete]
         public IActionResult Delete(int id)
@@ -82,5 +82,7 @@ namespace ArpanBookStore.Areas.Admin.Controllers
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
+        #endregion
     }
+
 }
