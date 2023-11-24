@@ -26,7 +26,7 @@ namespace ArpansBooks.Models
         public Category Category { get; set; }
         [Required]
         public int CoverTypeId { get; set; }
-        [ForeignKey("CategoryId")]
+        [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
         // foreign key reference
         // foreign key reference

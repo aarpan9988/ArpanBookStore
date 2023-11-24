@@ -37,8 +37,8 @@ namespace ArpansBooks.DataAccess.Repository
 
         public ISP_Call SP_Call { get; private set; }
 
-        public object save => throw new NotImplementedException();
-
+       /* public object save => throw new NotImplementedException();
+*/
          
 
         public void Dispose()
