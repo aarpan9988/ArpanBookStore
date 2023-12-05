@@ -203,3 +203,7 @@ Later i updated the code of sd.cs file and added the same update methods in it.
 
 I added the new entries for the price in the product.cs file.
 After that i added the those rpoperties in the ProductController.cs file also.
+
+dec 5, 2023 
+1:39 
+Uncommented the sslport so that andrew can run the application on its PC...
